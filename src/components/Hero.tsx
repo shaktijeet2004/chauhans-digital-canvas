@@ -67,7 +67,7 @@ const Hero = () => {
             <img
               src={profilePicture}
               alt="Chauhan Shaktijeet"
-              className="relative rounded-full w-80 h-80 md:w-96 md:h-96 object-cover border-4 border-primary shadow-glow"
+              className="relative rounded-full w-80 h-80 md:w-96 md:h-96 object-cover object-center border-4 border-primary shadow-glow"
             />
             {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 border-4 border-accent rounded-full opacity-50" />
