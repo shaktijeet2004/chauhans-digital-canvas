@@ -80,26 +80,26 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "chauhan.shaktijeet@example.com",
-      link: "mailto:chauhan.shaktijeet@example.com"
+      value: "chauhanop2004@gmail.com",
+      link: "mailto:chauhanop2004@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 XXXXX XXXXX",
-      link: "tel:+91XXXXXXXXXX"
+      value: "+91 9313210423",
+      link: "tel:+919313210423"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/chauhan-shaktijeet",
-      link: "https://linkedin.com/in/chauhan-shaktijeet"
+      value: "linkedin.com/in/chauhanshaktijeet",
+      link: "https://www.linkedin.com/in/chauhanshaktijeet"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/chauhan-shaktijeet",
-      link: "https://github.com/chauhan-shaktijeet"
+      value: "github.com/shaktijeet2004",
+      link: "https://github.com/shaktijeet2004"
     }
   ];
 
