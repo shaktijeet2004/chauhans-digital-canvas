@@ -9,24 +9,21 @@ const Projects = () => {
       title: "AgriTech AI Solution",
       description: "College collaborative project focused on AI-driven agricultural solutions. Built scalable backend with Django and MongoDB, integrating machine learning models for crop prediction and disease detection.",
       technologies: ["Django", "Python", "MongoDB", "TensorFlow", "AI/ML", "REST API"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/shaktijeet2004/Agri-tech-Solution-project",
       category: "Full-Stack & AI"
     },
     {
       title: "College Management System",
       description: "Comprehensive web application for managing college operations including student records, attendance tracking, course management, and faculty portal. Full CRUD functionality with modern UI.",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Material-UI"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/hiteshmali-1531/collegeManagementSystem",
       category: "Full-Stack"
     },
     {
       title: "Zerodha Clone",
       description: "Trading platform simulation replicating Zerodha's interface and core features. Includes real-time market data visualization, portfolio management, and order placement simulation.",
       technologies: ["React", "Node.js", "WebSocket", "Chart.js", "Redux"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/shaktijeet2004/Project-Zerodha",
       category: "Full-Stack"
     }
   ];
