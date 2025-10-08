@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -76,26 +76,16 @@ const Projects = () => {
               </div>
 
               {/* Links */}
-              <div className="px-6 pb-6 flex gap-3">
+              <div className="px-6 pb-6">
                 <Button
                   size="sm"
                   variant="outline"
-                  className="flex-1 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                   asChild
                 >
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <Github size={16} className="mr-2" />
-                    Code
-                  </a>
-                </Button>
-                <Button
-                  size="sm"
-                  className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground"
-                  asChild
-                >
-                  <a href={project.live} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink size={16} className="mr-2" />
-                    Live Demo
+                    View Code
                   </a>
                 </Button>
               </div>
